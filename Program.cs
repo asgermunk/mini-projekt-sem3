@@ -40,9 +40,12 @@ app.Use(async (context, next) =>
 
 
 // /api/posts/{id}/upvote
-app.MapPost("/api/posts/{id}/upvote", (int id) =>
+// This adds an upvote to a specific post
+// /api/posts/{id}/upvote
+// This adds an upvote to a specific post
+app.MapPost("/api/posts/{id}/upvote", (int id, DataService dataService) =>
 {
-
+    dataService.UpvotePost(id);
     return Results.Ok($"Upvoted post {id}");
 });
 // /api/posts/{id}/downvote

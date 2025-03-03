@@ -35,4 +35,24 @@ public class DataService
     {
         return db.Posts.Include(b => b.Comments).ToList();
     }
+    public List<Post> UpvotePost(int id)
+    {
+        var post = db.Posts.FirstOrDefault(b => b.PostId == id);
+        if (post != null)
+        {
+            post.Score++;
+            db.SaveChanges();
+        }
+        return db.Posts.Include(b => b.Comments).ToList();
+    }
+    public List<Post> DownvotePost(int id)
+    {
+        var post = db.Posts.FirstOrDefault(b => b.PostId == id);
+        if (post != null)
+        {
+            post.Score--;
+            db.SaveChanges();
+        }
+        return db.Posts.Include(b => b.Comments).ToList();
+    }
 };
