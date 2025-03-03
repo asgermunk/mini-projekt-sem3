@@ -17,7 +17,11 @@ app.UseCors(AllowSomeStuff);
 
 
 // /api/posts/{id}/upvote
-app.MapPost
+app.MapPost("/api/posts/{id}/upvote", (int id) =>
+{
+
+    return Results.Ok($"Upvoted post {id}");
+});
 // /api/posts/{id}/downvote
 // /api/posts/{postid}/comments/{commentid}/upvote
 // /api/posts/{postid}/comments/{commentid}/downvote
