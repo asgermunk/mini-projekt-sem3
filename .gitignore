@@ -34,6 +34,7 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+net*/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -104,7 +105,9 @@ StyleCopReport.xml
 *.svclog
 *.scc
 *.cache
-
+*.db-shm
+*.db-wal
+*.targets
 
 # Chutzpah Test files
 _Chutzpah*
