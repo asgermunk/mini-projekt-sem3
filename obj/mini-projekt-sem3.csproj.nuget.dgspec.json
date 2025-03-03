@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\mini-projekt-sem3.csproj": {}
+    "/Users/mathiaschristiansen/RiderProjects/mini-projekt-sem3/mini-projekt-sem3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\mini-projekt-sem3.csproj": {
+    "/Users/mathiaschristiansen/RiderProjects/mini-projekt-sem3/mini-projekt-sem3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\mini-projekt-sem3.csproj",
+        "projectUniqueName": "/Users/mathiaschristiansen/RiderProjects/mini-projekt-sem3/mini-projekt-sem3.csproj",
         "projectName": "mini-projekt-sem3",
-        "projectPath": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\mini-projekt-sem3.csproj",
-        "packagesPath": "C:\\Users\\Asger\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\obj\\",
+        "projectPath": "/Users/mathiaschristiansen/RiderProjects/mini-projekt-sem3/mini-projekt-sem3.csproj",
+        "packagesPath": "/Users/mathiaschristiansen/.nuget/packages/",
+        "outputPath": "/Users/mathiaschristiansen/RiderProjects/mini-projekt-sem3/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Asger\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mathiaschristiansen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,9 +36,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -52,17 +45,17 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.SQLite": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "(, )"
             }
           },
           "imports": [
@@ -84,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
