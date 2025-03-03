@@ -95,7 +95,7 @@ public class DataService
         }
         return db.Comment.ToList();
     }
-    
+
     public List<Post> GetPosts()
     {
         return db.Posts.Include(b => b.Comments).ToList();
@@ -103,6 +103,6 @@ public class DataService
 
     public Post GetPostById(int id)
     {
-        return db.Posts.Include(b => b.Comments).FirstOrDefault(p => p.PostId == id);
+        return db.Posts.Include(b => b.Comments).FirstOrDefault(p => p.PostId == id)!;
     }
 };
