@@ -31,10 +31,6 @@ public class DataService
         }
         db.SaveChanges();
     }
-    public List<Post> GetPosts()
-    {
-        return db.Posts.Include(b => b.Comments).ToList();
-    }
     public List<Post> UpvotePost(int id)
     {
         var post = db.Posts.FirstOrDefault(b => b.PostId == id);
@@ -98,5 +94,15 @@ public class DataService
             db.SaveChanges();
         }
         return db.Comment.ToList();
+    }
+    
+    public List<Post> GetPosts()
+    {
+        return db.Posts.Include(b => b.Comments).ToList();
+    }
+
+    public Post GetPostById(int id)
+    {
+        return db.Posts.Include(b => b.Comments).FirstOrDefault(p => p.PostId == id);
     }
 };
