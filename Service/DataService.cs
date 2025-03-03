@@ -55,4 +55,48 @@ public class DataService
         }
         return db.Posts.Include(b => b.Comments).ToList();
     }
+    public List<Comment> UpvoteComment(int postid, int commentid)
+    {
+        var post = db.Posts.FirstOrDefault(b => b.PostId == postid);
+        if (post != null)
+        {
+            var comment = post.Comments.FirstOrDefault(b => b.CommentId == commentid);
+            if (comment != null)
+            {
+                comment.Score++;
+                db.SaveChanges();
+            }
+        }
+        return db.Comment.ToList();
+    }
+    public List<Comment> DownvoteComment(int postid, int commentid)
+    {
+        var post = db.Posts.FirstOrDefault(b => b.PostId == postid);
+        if (post != null)
+        {
+            var comment = post.Comments.FirstOrDefault(b => b.CommentId == commentid);
+            if (comment != null)
+            {
+                comment.Score--;
+                db.SaveChanges();
+            }
+        }
+        return db.Comment.ToList();
+    }
+    public List<Post> AddPost(Post post)
+    {
+        db.Posts.Add(post);
+        db.SaveChanges();
+        return db.Posts.Include(b => b.Comments).ToList();
+    }
+    public List<Comment> AddComment(int id, Comment comment)
+    {
+        var post = db.Posts.FirstOrDefault(b => b.PostId == id);
+        if (post != null)
+        {
+            post.Comments.Add(comment);
+            db.SaveChanges();
+        }
+        return db.Comment.ToList();
+    }
 };

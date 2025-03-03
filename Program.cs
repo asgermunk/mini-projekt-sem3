@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Service;
 using Data;
-
+using model;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -39,19 +39,52 @@ app.Use(async (context, next) =>
 });
 
 
+
 // /api/posts/{id}/upvote
 // This adds an upvote to a specific post
-// /api/posts/{id}/upvote
-// This adds an upvote to a specific post
-app.MapPost("/api/posts/{id}/upvote", (int id, DataService dataService) =>
+app.MapPut("/api/posts/{id}/upvote", (int id, DataService dataService) =>
 {
     dataService.UpvotePost(id);
     return Results.Ok($"Upvoted post {id}");
 });
-// /api/posts/{id}/downvote
-// /api/posts/{postid}/comments/{commentid}/upvote
-// /api/posts/{postid}/comments/{commentid}/downvote
 
+// /api/posts/{id}/downvote
+// This adds a downvote to a specific post
+app.MapPut("/api/posts/{id}/downvote", (int id, DataService dataService) =>
+{
+    dataService.DownvotePost(id);
+    return Results.Ok($"Downvoted post {id}");
+});
+// /api/posts/{postid}/comments/{commentid}/upvote
+// This adds an upvote to a specific comment
+app.MapPut("/api/posts/{postid}/comments/{commentid}/upvote", (int postid, int commentid, DataService dataService) =>
+{
+    dataService.UpvoteComment(postid, commentid);
+    return Results.Ok($"Upvoted comment {commentid} on post {postid}");
+});
+// /api/posts/{postid}/comments/{commentid}/downvote
+// This adds a downvote to a specific comment
+app.MapPut("/api/posts/{postid}/comments/{commentid}/downvote", (int postid, int commentid, DataService dataService) =>
+{
+    dataService.DownvoteComment(postid, commentid);
+    return Results.Ok($"Downvoted comment {commentid} on post {postid}");
+});
+
+// POST:
+// /api/posts
+// This adds a new post
+app.MapPost("/api/posts", (Post post, DataService dataService) =>
+{
+    dataService.AddPost(post);
+    return Results.Ok($"Added post {post.Title}");
+});
+// /api/posts/{id}/comments
+// This adds a new comment to a specific post
+app.MapPost("/api/posts/{id}/comments", (int id, Comment comment, DataService dataService) =>
+{
+    dataService.AddComment(id, comment);
+    return Results.Ok($"Added comment {comment.Content} to post {id}");
+});
 app.MapGet("/", () => "Hello World!");
 
 app.Run();
