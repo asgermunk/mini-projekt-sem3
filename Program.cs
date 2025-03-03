@@ -38,6 +38,19 @@ app.Use(async (context, next) =>
     await next(context);
 });
 
+//Get
+
+app.MapGet("/api/posts",(DataService dataService) =>
+{
+    var posts = dataService.GetPosts();
+    return Results.Ok(posts);
+});
+
+app.MapGet("/api/posts/{id}",(int id, DataService dataService) =>
+{
+    var posts = dataService.GetPostById(id);
+    return Results.Ok(posts);
+});
 
 
 // /api/posts/{id}/upvote
