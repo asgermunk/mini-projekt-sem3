@@ -50,6 +50,25 @@ public class ApiService
         // Return the new comment 
         return newComment;
     }
+    public async Task<Post> CreatePost(string title, string content, string name)
+    {
+        string url = $"{baseAPI}posts/";
+        Model.Post post = new Model.Post(title, content, name, 0, DateTime.Now, new List<Comment>());
+        // Post JSON to API, save the HttpResponseMessage
+        HttpResponseMessage msg = await http.PostAsJsonAsync(url, post);
+
+        // Get the JSON string from the response
+        string json = msg.Content.ReadAsStringAsync().Result;
+
+        // Deserialize the JSON string to a Post object
+        Post? newPost = JsonSerializer.Deserialize<Post>(json, new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true // Ignore case when matching JSON properties to C# properties
+        });
+
+        // Return the new post
+        return newPost;
+    }
 
     public async Task<Post> UpvotePost(int id)
     {

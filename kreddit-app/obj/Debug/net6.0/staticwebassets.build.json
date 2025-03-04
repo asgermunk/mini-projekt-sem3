@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dG1AnASN4NToSa2uRtIK9uoVTDzR9TGbCptRue0z8g8=",
+  "Hash": "TXXYoTK2loTThs3ZYU7WVgdlSDkADI3fK5Haa9wfWlE=",
   "Source": "kreddit-app",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "h45nkccbij",
-      "Integrity": "T8JPuev0VIbcVi2Ll53z8jiChvj/sK0gaWL+G+6WVzo=",
+      "Fingerprint": "3fgu81kptq",
+      "Integrity": "YSUMZ8wJTva4cTjDIs4zJiBvYhFGFs6xbT2C5GEQmDY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\blazor.boot.json"
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "e8ew41gxwj",
-      "Integrity": "DnibY+BmdMNyyO9jlMj3dENz/TAQnOJIuWgSa/zakH8=",
+      "Fingerprint": "n43ovzsbow",
+      "Integrity": "KW8VxeBRtMLeIsUVxgGqC6IVW+ZzR8lqXBpVIRexBOc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\kreddit-app.dll"
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "krnonhs7m7",
-      "Integrity": "UGkPte9IQpo7rogAz19R1QQ12SLdZgn7mzfSv1BVFCM=",
+      "Fingerprint": "hlfgv6c9az",
+      "Integrity": "C/a+uHRK7unbGUSkRkA2TSxGAsCnALVQkZT+Zzmll1o=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net6.0\\kreddit-app.pdb"
@@ -4595,7 +4595,7 @@
       "OriginalItemSpec": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Mail.dll"
     },
     {
-      "Identity": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\3j0lzlkx3o-krnonhs7m7.gz",
+      "Identity": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\3j0lzlkx3o-hlfgv6c9az.gz",
       "SourceId": "kreddit-app",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\",
@@ -4609,8 +4609,8 @@
       "RelatedAsset": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\bin\\Debug\\net6.0\\wwwroot\\_framework\\kreddit-app.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "af6pom23rr",
-      "Integrity": "xvxSRrN4qz97H5TgEuqNjnxssDkIJi71MrNmqfBrbeQ=",
+      "Fingerprint": "t0pvlphmds",
+      "Integrity": "bVmxpU4IEUhbG2TVRFykozmSoor10RfpmVmXeWzMwYo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\bin\\Debug\\net6.0\\wwwroot\\_framework\\kreddit-app.pdb"
@@ -6506,7 +6506,7 @@
       "OriginalItemSpec": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebProxy.dll"
     },
     {
-      "Identity": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\jzwkv3pv93-e8ew41gxwj.gz",
+      "Identity": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\jzwkv3pv93-n43ovzsbow.gz",
       "SourceId": "kreddit-app",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\",
@@ -6520,8 +6520,8 @@
       "RelatedAsset": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\bin\\Debug\\net6.0\\wwwroot\\_framework\\kreddit-app.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kga1os30oc",
-      "Integrity": "zNzIiaRM7eWAe7iLsOHkNpLjsQWCaYV0KzJXPXI55YA=",
+      "Fingerprint": "e0idnriym9",
+      "Integrity": "kgBMleeC8mG5ENmojYqySAHB4BnH6CD5/tqB4k5ufMo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\bin\\Debug\\net6.0\\wwwroot\\_framework\\kreddit-app.dll"
@@ -7598,7 +7598,7 @@
       "OriginalItemSpec": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
     },
     {
-      "Identity": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\sn8gqed6ym-h45nkccbij.gz",
+      "Identity": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\sn8gqed6ym-3fgu81kptq.gz",
       "SourceId": "kreddit-app",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\",
@@ -7612,8 +7612,8 @@
       "RelatedAsset": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "b48yolswv0",
-      "Integrity": "m6mLZZujVog7za0gTNqmAgCRLwRa86u0tcq/YVMV1ew=",
+      "Fingerprint": "j6pomypzn4",
+      "Integrity": "e4OxmreN9WgtFq+RffJP7S2hYg/dCkW5yRGhhNY9tCM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -8836,11 +8836,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T8JPuev0VIbcVi2Ll53z8jiChvj/sK0gaWL+G+6WVzo=\""
+          "Value": "\"YSUMZ8wJTva4cTjDIs4zJiBvYhFGFs6xbT2C5GEQmDY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:03:07 GMT"
+          "Value": "Tue, 04 Mar 2025 13:13:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8850,18 +8850,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T8JPuev0VIbcVi2Ll53z8jiChvj/sK0gaWL+G+6WVzo="
+          "Value": "sha256-YSUMZ8wJTva4cTjDIs4zJiBvYhFGFs6xbT2C5GEQmDY="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\sn8gqed6ym-h45nkccbij.gz",
+      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\sn8gqed6ym-3fgu81kptq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000114784206"
+          "Quality": "0.000114797383"
         }
       ],
       "ResponseHeaders": [
@@ -8871,15 +8871,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8711"
+          "Value": "8710"
         },
         {
           "Name": "ETag",
-          "Value": "\"m6mLZZujVog7za0gTNqmAgCRLwRa86u0tcq/YVMV1ew=\""
+          "Value": "\"e4OxmreN9WgtFq+RffJP7S2hYg/dCkW5yRGhhNY9tCM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 12:58:24 GMT"
+          "Value": "Tue, 04 Mar 2025 13:12:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8899,19 +8899,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"T8JPuev0VIbcVi2Ll53z8jiChvj/sK0gaWL+G+6WVzo=\""
+          "Value": "W/\"YSUMZ8wJTva4cTjDIs4zJiBvYhFGFs6xbT2C5GEQmDY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T8JPuev0VIbcVi2Ll53z8jiChvj/sK0gaWL+G+6WVzo="
+          "Value": "sha256-YSUMZ8wJTva4cTjDIs4zJiBvYhFGFs6xbT2C5GEQmDY="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\sn8gqed6ym-h45nkccbij.gz",
+      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\sn8gqed6ym-3fgu81kptq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8920,7 +8920,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8711"
+          "Value": "8710"
         },
         {
           "Name": "Content-Type",
@@ -8928,11 +8928,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"m6mLZZujVog7za0gTNqmAgCRLwRa86u0tcq/YVMV1ew=\""
+          "Value": "\"e4OxmreN9WgtFq+RffJP7S2hYg/dCkW5yRGhhNY9tCM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 12:58:24 GMT"
+          "Value": "Tue, 04 Mar 2025 13:12:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8950,7 +8950,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-m6mLZZujVog7za0gTNqmAgCRLwRa86u0tcq/YVMV1ew="
+          "Value": "sha256-e4OxmreN9WgtFq+RffJP7S2hYg/dCkW5yRGhhNY9tCM="
         }
       ]
     },
@@ -10061,7 +10061,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "33792"
+          "Value": "35840"
         },
         {
           "Name": "Content-Type",
@@ -10069,11 +10069,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DnibY+BmdMNyyO9jlMj3dENz/TAQnOJIuWgSa/zakH8=\""
+          "Value": "\"KW8VxeBRtMLeIsUVxgGqC6IVW+ZzR8lqXBpVIRexBOc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:03:06 GMT"
+          "Value": "Tue, 04 Mar 2025 13:13:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10083,18 +10083,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DnibY+BmdMNyyO9jlMj3dENz/TAQnOJIuWgSa/zakH8="
+          "Value": "sha256-KW8VxeBRtMLeIsUVxgGqC6IVW+ZzR8lqXBpVIRexBOc="
         }
       ]
     },
     {
       "Route": "_framework/kreddit-app.dll",
-      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\jzwkv3pv93-e8ew41gxwj.gz",
+      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\jzwkv3pv93-n43ovzsbow.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000072364136"
+          "Quality": "0.000067874839"
         }
       ],
       "ResponseHeaders": [
@@ -10104,15 +10104,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13818"
+          "Value": "14732"
         },
         {
           "Name": "ETag",
-          "Value": "\"zNzIiaRM7eWAe7iLsOHkNpLjsQWCaYV0KzJXPXI55YA=\""
+          "Value": "\"kgBMleeC8mG5ENmojYqySAHB4BnH6CD5/tqB4k5ufMo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 12:58:24 GMT"
+          "Value": "Tue, 04 Mar 2025 13:12:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10132,19 +10132,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"DnibY+BmdMNyyO9jlMj3dENz/TAQnOJIuWgSa/zakH8=\""
+          "Value": "W/\"KW8VxeBRtMLeIsUVxgGqC6IVW+ZzR8lqXBpVIRexBOc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DnibY+BmdMNyyO9jlMj3dENz/TAQnOJIuWgSa/zakH8="
+          "Value": "sha256-KW8VxeBRtMLeIsUVxgGqC6IVW+ZzR8lqXBpVIRexBOc="
         }
       ]
     },
     {
       "Route": "_framework/kreddit-app.dll.gz",
-      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\jzwkv3pv93-e8ew41gxwj.gz",
+      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\jzwkv3pv93-n43ovzsbow.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10153,7 +10153,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13818"
+          "Value": "14732"
         },
         {
           "Name": "Content-Type",
@@ -10161,11 +10161,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zNzIiaRM7eWAe7iLsOHkNpLjsQWCaYV0KzJXPXI55YA=\""
+          "Value": "\"kgBMleeC8mG5ENmojYqySAHB4BnH6CD5/tqB4k5ufMo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 12:58:24 GMT"
+          "Value": "Tue, 04 Mar 2025 13:12:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10183,7 +10183,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zNzIiaRM7eWAe7iLsOHkNpLjsQWCaYV0KzJXPXI55YA="
+          "Value": "sha256-kgBMleeC8mG5ENmojYqySAHB4BnH6CD5/tqB4k5ufMo="
         }
       ]
     },
@@ -10198,7 +10198,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28468"
+          "Value": "30628"
         },
         {
           "Name": "Content-Type",
@@ -10206,11 +10206,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UGkPte9IQpo7rogAz19R1QQ12SLdZgn7mzfSv1BVFCM=\""
+          "Value": "\"C/a+uHRK7unbGUSkRkA2TSxGAsCnALVQkZT+Zzmll1o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 13:03:06 GMT"
+          "Value": "Tue, 04 Mar 2025 13:13:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10220,18 +10220,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UGkPte9IQpo7rogAz19R1QQ12SLdZgn7mzfSv1BVFCM="
+          "Value": "sha256-C/a+uHRK7unbGUSkRkA2TSxGAsCnALVQkZT+Zzmll1o="
         }
       ]
     },
     {
       "Route": "_framework/kreddit-app.pdb",
-      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\3j0lzlkx3o-krnonhs7m7.gz",
+      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\3j0lzlkx3o-hlfgv6c9az.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000050145422"
+          "Quality": "0.000045888399"
         }
       ],
       "ResponseHeaders": [
@@ -10241,15 +10241,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19941"
+          "Value": "21791"
         },
         {
           "Name": "ETag",
-          "Value": "\"xvxSRrN4qz97H5TgEuqNjnxssDkIJi71MrNmqfBrbeQ=\""
+          "Value": "\"bVmxpU4IEUhbG2TVRFykozmSoor10RfpmVmXeWzMwYo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 12:58:24 GMT"
+          "Value": "Tue, 04 Mar 2025 13:12:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10269,19 +10269,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"UGkPte9IQpo7rogAz19R1QQ12SLdZgn7mzfSv1BVFCM=\""
+          "Value": "W/\"C/a+uHRK7unbGUSkRkA2TSxGAsCnALVQkZT+Zzmll1o=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UGkPte9IQpo7rogAz19R1QQ12SLdZgn7mzfSv1BVFCM="
+          "Value": "sha256-C/a+uHRK7unbGUSkRkA2TSxGAsCnALVQkZT+Zzmll1o="
         }
       ]
     },
     {
       "Route": "_framework/kreddit-app.pdb.gz",
-      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\3j0lzlkx3o-krnonhs7m7.gz",
+      "AssetFile": "C:\\Users\\Asger\\source\\repos\\asgermunk\\3sem\\mini-projekt-sem3\\kreddit-app\\obj\\Debug\\net6.0\\compressed\\3j0lzlkx3o-hlfgv6c9az.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10290,7 +10290,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19941"
+          "Value": "21791"
         },
         {
           "Name": "Content-Type",
@@ -10298,11 +10298,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xvxSRrN4qz97H5TgEuqNjnxssDkIJi71MrNmqfBrbeQ=\""
+          "Value": "\"bVmxpU4IEUhbG2TVRFykozmSoor10RfpmVmXeWzMwYo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 12:58:24 GMT"
+          "Value": "Tue, 04 Mar 2025 13:12:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10320,7 +10320,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xvxSRrN4qz97H5TgEuqNjnxssDkIJi71MrNmqfBrbeQ="
+          "Value": "sha256-bVmxpU4IEUhbG2TVRFykozmSoor10RfpmVmXeWzMwYo="
         }
       ]
     },

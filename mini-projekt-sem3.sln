@@ -2,15 +2,9 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mini-projekt-sem3", "mini-projekt-sem3.csproj", "{DADF342F-8EF7-BA54-AD86-72ADD958F94F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kreddit-blazor", "kreddit-blazor", "{2CA53497-BF7F-43F8-903F-984FDD4C8A62}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kreddit-app", "kreddit-blazor\kreddit-app\kreddit-app.csproj", "{836B4E1D-E959-4F51-B625-9248DFE65876}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shared", "shared\shared.csproj", "{81E06CC7-C95F-4955-94ED-AE2998DF9C32}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mini-projekt-sem3", "API\mini-projekt-sem3.csproj", "{3F736721-F9D3-402C-B760-0CD3859B0B1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kreddit-app", "kreddit-app\kreddit-app.csproj", "{731247D0-402D-4712-A7A0-11E081E7017C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,30 +12,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DADF342F-8EF7-BA54-AD86-72ADD958F94F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DADF342F-8EF7-BA54-AD86-72ADD958F94F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DADF342F-8EF7-BA54-AD86-72ADD958F94F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DADF342F-8EF7-BA54-AD86-72ADD958F94F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{836B4E1D-E959-4F51-B625-9248DFE65876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{836B4E1D-E959-4F51-B625-9248DFE65876}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{836B4E1D-E959-4F51-B625-9248DFE65876}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{836B4E1D-E959-4F51-B625-9248DFE65876}.Release|Any CPU.Build.0 = Release|Any CPU
-		{81E06CC7-C95F-4955-94ED-AE2998DF9C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{81E06CC7-C95F-4955-94ED-AE2998DF9C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{81E06CC7-C95F-4955-94ED-AE2998DF9C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{81E06CC7-C95F-4955-94ED-AE2998DF9C32}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3F736721-F9D3-402C-B760-0CD3859B0B1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3F736721-F9D3-402C-B760-0CD3859B0B1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F736721-F9D3-402C-B760-0CD3859B0B1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F736721-F9D3-402C-B760-0CD3859B0B1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731247D0-402D-4712-A7A0-11E081E7017C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731247D0-402D-4712-A7A0-11E081E7017C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731247D0-402D-4712-A7A0-11E081E7017C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731247D0-402D-4712-A7A0-11E081E7017C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB310EA2-629B-422F-866A-B9FF7B4E5328}
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{836B4E1D-E959-4F51-B625-9248DFE65876} = {2CA53497-BF7F-43F8-903F-984FDD4C8A62}
 	EndGlobalSection
 EndGlobal

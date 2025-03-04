@@ -26,9 +26,12 @@ div.contents {
 }
 else
 {
+    //home button
+    <a href="/">Home</a>
     <div class="contents">
         <h4>@Post.Title</h4>
         <p><strong>User: @Post.Author, Votes: @(Post.Score)</strong></p>
+        <p>Date: @(Post.Date)</p>
         <p>@Post.Content</p>
     </div>
 
@@ -39,6 +42,7 @@ else
             <th>User</th>
             <th>Comment</th>
             <th colspan="3">Votes</th>
+            <th>Date</th>
         </tr>
         @foreach (var comment in Post.Comments)
         {
@@ -48,6 +52,7 @@ else
                 <td>@(comment.Score)</td>
                 <td><button @onclick="() => Upvote(comment.CommentId)">Upvote</button></td>
                 <td><button @onclick="() => Downvote(comment.CommentId)">Downvote</button></td>
+                <td>@comment.Date</td>
             </tr>
         }
     </table>

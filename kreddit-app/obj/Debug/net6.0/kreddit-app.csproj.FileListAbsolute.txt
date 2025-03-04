@@ -821,6 +821,6 @@ C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Deb
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\refint\kreddit-app.dll
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\kreddit-app.pdb
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\ref\kreddit-app.dll
-C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\jzwkv3pv93-e8ew41gxwj.gz
-C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\3j0lzlkx3o-krnonhs7m7.gz
-C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\sn8gqed6ym-h45nkccbij.gz
+C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\jzwkv3pv93-n43ovzsbow.gz
+C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\3j0lzlkx3o-hlfgv6c9az.gz
+C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\sn8gqed6ym-3fgu81kptq.gz
