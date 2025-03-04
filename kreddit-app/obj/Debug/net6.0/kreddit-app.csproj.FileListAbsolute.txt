@@ -807,9 +807,6 @@ C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Deb
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\r4u3z544aw-1g6dzeoluu.gz
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\69bjiv5r62-xxwcmr94me.gz
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\8m8os4qngy-pf4yq2tlc6.gz
-C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\jzwkv3pv93-stfs4bhggq.gz
-C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\3j0lzlkx3o-j90ppwj228.gz
-C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\sn8gqed6ym-ydb3npei89.gz
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\staticwebassets.build.endpoints.json
@@ -824,3 +821,6 @@ C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Deb
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\refint\kreddit-app.dll
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\kreddit-app.pdb
 C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\ref\kreddit-app.dll
+C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\jzwkv3pv93-e8ew41gxwj.gz
+C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\3j0lzlkx3o-krnonhs7m7.gz
+C:\Users\Asger\source\repos\asgermunk\3sem\mini-projekt-sem3\kreddit-app\obj\Debug\net6.0\compressed\sn8gqed6ym-h45nkccbij.gz
