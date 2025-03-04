@@ -31,7 +31,7 @@ public class DataService
         }
         db.SaveChanges();
     }
-    public List<Post> UpvotePost(int id)
+    public Post UpvotePost(int id)
     {
         var post = db.Posts.FirstOrDefault(b => b.PostId == id);
         if (post != null)
@@ -39,9 +39,9 @@ public class DataService
             post.Score++;
             db.SaveChanges();
         }
-        return db.Posts.Include(b => b.Comments).ToList();
+        return post;
     }
-    public List<Post> DownvotePost(int id)
+    public Post DownvotePost(int id)
     {
         var post = db.Posts.FirstOrDefault(b => b.PostId == id);
         if (post != null)
@@ -49,25 +49,33 @@ public class DataService
             post.Score--;
             db.SaveChanges();
         }
-        return db.Posts.Include(b => b.Comments).ToList();
+        return post;
     }
-    public List<Comment> UpvoteComment(int postid, int commentid)
+    public Comment UpvoteComment(int postid, int commentid)
     {
-        var post = db.Posts.FirstOrDefault(b => b.PostId == postid);
+        System.Console.WriteLine(postid + "something");
+        System.Console.WriteLine(commentid + "something");
+        var post = db.Posts.Include(p => p.Comments).FirstOrDefault(b => b.PostId == postid);
         if (post != null)
         {
+
+            System.Console.WriteLine("we found a post");
+
             var comment = post.Comments.FirstOrDefault(b => b.CommentId == commentid);
             if (comment != null)
             {
+                System.Console.WriteLine("we found a comment");
+                System.Console.WriteLine(comment.Score);
                 comment.Score++;
+
                 db.SaveChanges();
             }
         }
-        return db.Comment.ToList();
+        return post.Comments.FirstOrDefault(b => b.CommentId == commentid);
     }
-    public List<Comment> DownvoteComment(int postid, int commentid)
+    public Comment DownvoteComment(int postid, int commentid)
     {
-        var post = db.Posts.FirstOrDefault(b => b.PostId == postid);
+        var post = db.Posts.Include(p => p.Comments).FirstOrDefault(b => b.PostId == postid);
         if (post != null)
         {
             var comment = post.Comments.FirstOrDefault(b => b.CommentId == commentid);
@@ -77,13 +85,13 @@ public class DataService
                 db.SaveChanges();
             }
         }
-        return db.Comment.ToList();
+        return post.Comments.FirstOrDefault(b => b.CommentId == commentid);
     }
-    public List<Post> AddPost(Post post)
+    public Post AddPost(Post post)
     {
         db.Posts.Add(post);
         db.SaveChanges();
-        return db.Posts.Include(b => b.Comments).ToList();
+        return post;
     }
     public List<Comment> AddComment(int id, Comment comment)
     {

@@ -57,30 +57,31 @@ app.MapGet("/api/posts/{id}", (int id, DataService dataService) =>
 // This adds an upvote to a specific post
 app.MapPut("/api/posts/{id}/upvote", (int id, DataService dataService) =>
 {
-    dataService.UpvotePost(id);
-    return Results.Ok($"Upvoted post {id}");
+    return dataService.UpvotePost(id);
+
 });
 
 // /api/posts/{id}/downvote
 // This adds a downvote to a specific post
 app.MapPut("/api/posts/{id}/downvote", (int id, DataService dataService) =>
 {
-    dataService.DownvotePost(id);
-    return Results.Ok($"Downvoted post {id}");
+    return dataService.DownvotePost(id);
+
 });
 // /api/posts/{postid}/comments/{commentid}/upvote
 // This adds an upvote to a specific comment
 app.MapPut("/api/posts/{postid}/comments/{commentid}/upvote", (int postid, int commentid, DataService dataService) =>
 {
-    dataService.UpvoteComment(postid, commentid);
-    return Results.Ok($"Upvoted comment {commentid} on post {postid}");
+    System.Console.WriteLine("jeg rammer api kald");
+    return dataService.UpvoteComment(postid, commentid);
+
 });
 // /api/posts/{postid}/comments/{commentid}/downvote
 // This adds a downvote to a specific comment
 app.MapPut("/api/posts/{postid}/comments/{commentid}/downvote", (int postid, int commentid, DataService dataService) =>
 {
-    dataService.DownvoteComment(postid, commentid);
-    return Results.Ok($"Downvoted comment {commentid} on post {postid}");
+
+    return dataService.DownvoteComment(postid, commentid);
 });
 
 // POST:
@@ -89,14 +90,14 @@ app.MapPut("/api/posts/{postid}/comments/{commentid}/downvote", (int postid, int
 app.MapPost("/api/posts", (Post post, DataService dataService) =>
 {
     dataService.AddPost(post);
-    return Results.Ok($"Added post {post.Title}");
+    return Results.Ok(post);
 });
 // /api/posts/{id}/comments
 // This adds a new comment to a specific post
 app.MapPost("/api/posts/{id}/comments", (int id, Comment comment, DataService dataService) =>
 {
     dataService.AddComment(id, comment);
-    return Results.Ok($"Added comment {comment.Content} to post {id}");
+    return Results.Ok(comment);
 });
 app.MapGet("/", () => "Hello World!");
 
