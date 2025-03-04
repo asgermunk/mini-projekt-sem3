@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Service;
 using Data;
-using model;
+using shared.Model;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -40,13 +40,13 @@ app.Use(async (context, next) =>
 
 //Get
 
-app.MapGet("/api/posts",(DataService dataService) =>
+app.MapGet("/api/posts", (DataService dataService) =>
 {
     var posts = dataService.GetPosts();
     return Results.Ok(posts);
 });
 
-app.MapGet("/api/posts/{id}",(int id, DataService dataService) =>
+app.MapGet("/api/posts/{id}", (int id, DataService dataService) =>
 {
     var posts = dataService.GetPostById(id);
     return Results.Ok(posts);
