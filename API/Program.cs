@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Service;
 using Data;
-using shared.Model;
+using model;
 
 
 var builder = WebApplication.CreateBuilder(args);

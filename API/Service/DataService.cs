@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 
 using Data;
-using shared.Model;
+using model;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Service;
